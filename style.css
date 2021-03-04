@@ -1,0 +1,53 @@
+
+    
+a{  
+    color :black;
+    text-decoration:none;
+}
+h1{
+    font-size: 60px;
+    text-align:center;
+    border-bottom : solid ;
+    padding :10px;
+    margin :auto;
+    align-items: center;
+    display: block;
+    margin-bottom: 0px;
+}
+
+#grid{
+    
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+ol{
+    height: 200%;
+    margin-top:0px;
+    padding:30px;
+    width: 150px;
+    border-right: 1px solid black;
+}
+#article{
+   padding: 30px;
+   margin-left:50px;
+}
+body{
+   margin:0;
+}
+#song{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media(max-width:800px){
+   #grid{
+    display: block;
+   }
+   ol{
+       border-right:none;
+   }
+   h1{
+       font-size:50%;
+       border-bottom: 1px solid black;
+   }
+}
